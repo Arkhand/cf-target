@@ -1,0 +1,9 @@
+{
+  "name": "cf-target",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Per-project Cloud Foundry account: run cf only against the account declared in .cf-target.",
+  "bin": { "cf-target": "bin/cf-target.js" },
+  "scripts": { "test": "node test/run-all.js" },
+  "engines": { "node": ">=18" }
+}
